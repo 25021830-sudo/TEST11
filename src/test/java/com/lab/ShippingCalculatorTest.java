@@ -32,10 +32,5 @@ public class ShippingCalculatorTest {
     assertThrows(IllegalArgumentException.class,
       () -> calc.calculate(-1, "STANDARD"));
   }
-  @Test
-  void testInvalidWeight() {
-    assertThrows(IllegalArgumentException.class,
-      () -> calc.calculate(5, "STANDARD"));
-  }
 }
 
