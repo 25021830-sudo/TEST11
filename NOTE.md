@@ -41,16 +41,14 @@ void testInvalidWeight() {
 assertThrows(IllegalArgumentException.class,
 () -> calc.calculate(5, "STANDARD"));
 }
-[INFO] Results:
-[INFO]
-[ERROR] Failures:
-[ERROR]   ShippingCalculatorTest.testInvalidWeight:19 Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
-[INFO]
-[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0
-[INFO]
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.594 s
-[INFO] Finished at: 2026-05-07T23:41:05+07:00
-[INFO] ------------------------------------------------------------------------
+Error:  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:testCompile (default-testCompile) on project shipping-app: Compilation failure
+Error:  /home/runner/work/TEST11/TEST11/src/test/java/com/lab/ShippingCalculatorTest.java:[31,8] method testInvalidWeight() is already defined in class com.lab.ShippingCalculatorTest
+Error:  
+Error:  -> [Help 1]
+Error:  
+Error:  To see the full stack trace of the errors, re-run Maven with the -e switch.
+Error:  Re-run Maven using the -X switch to enable full debug logging.
+Error:  
+Error:  For more information about the errors and possible solutions, please read the following articles:
+Error:  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Error: Process completed with exit code 1.
