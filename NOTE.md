@@ -52,3 +52,16 @@ Error:
 Error:  For more information about the errors and possible solutions, please read the following articles:
 Error:  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 Error: Process completed with exit code 1.
+
+Error:  Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.1.2:test (default-test) on project shipping-app: There are test failures.
+Error:  
+Error:  Please refer to /home/runner/work/TEST11/TEST11/target/surefire-reports for the individual test results.
+Error:  Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+Error:  -> [Help 1]
+Error:  
+Error:  To see the full stack trace of the errors, re-run Maven with the -e switch.
+Error:  Re-run Maven using the -X switch to enable full debug logging.
+Error:  
+Error:  For more information about the errors and possible solutions, please read the following articles:
+Error:  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Error: Process completed with exit code 1.
